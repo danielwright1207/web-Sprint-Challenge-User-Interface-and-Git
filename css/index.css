@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 1px solid black;
+	border: 0px solid black;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -28,52 +28,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-header {
-    justify-content: space-evenly;
-    justify-content: center;
-    padding: 2%;
-    margin-left: 20vw;
-    margin-right: 21vw;
-
-}
-header  nav {
-    display: flex;
-    align-content: start;
-    justify-content: start;
-    justify-content: space-between;
-}
-header nav a {
-    text-decoration: none;
-    padding: 1%;
-    justify-content: start;
-}
-header nav img {
-    height: auto;
-    width: auto;
-    justify-items: left;
-}
-
-.buildings img {
-    height: 31vh;
-    width: 59vw;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin: auto;
-    padding: 5%;
-}
-
-
-.traffic img {
-    height: 31vh;
-    width: 59vw;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin: auto;
-    padding: 2%;
-}
-
 body {
 	line-height: 1;
 }
@@ -92,41 +46,122 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 * {
     box-sizing: border-box;
 }
-
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-
 p {
     line-height: 1.4;
 }
-.strategy1 {
-    width: 17%;
+.header1 {
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+    width: 100vw;
+    display: flex;
 }
-.working {
-    width: 17%;
+.header1  nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60vw;
+    align-items: center;
+}
+.header1 nav a {
+    text-decoration: none;
+    padding: 1%;
+    width: 80vw;
+    justify-content: space-evenly;
+    display: flex;
+}
+.header1 nav img {
+    height: auto;
+    width: 80%;  
+}
+.about1 {
+    padding: 5%;
+}
+.buildings {
+    width: 100%;
+}
+.buildings img {
+    width: 100%; 
+    padding: 5%;  
+}
+.traffic img {
+    height: 31vh;
+    width: 59vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    padding: 2%;
+}
+.header2 {
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+    width: 100vw;
+    display: flex;
+}
+.header2 nav {
+    text-decoration: none;
+    padding: 1%;
+    width: 80vw;
+    justify-content: space-evenly;
+    display: flex;
+}
+.header2 nav a {
+    text-decoration: none;
+    padding: 1%;
+    width: 80vw;
+    justify-content: space-evenly;
+    display: flex;
+}
+.cardcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.card {
+    width: 40vw;
+    border-bottom: dashed grey;
+
+}
+.card h3 {
+    border: 1px solid grey;
+    padding: 2%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    border-radius: 20%;
+}
+.card img {
+    width:100%;
+}
+.bottomtext {
+    width: 87vw;
+    align-items: center;
+    margin: auto;  
+}
+footer {
+}
+.bottomtext h1{
+    width: 100%;
+    justify-content: center;
 }
 .container {
     width: 800px;
-    margin: 0 auto;
-    
+    margin: 0 auto;   
 }
-.about2 {
-    display: flex;
-    flex-wrap: wrap;  
-}
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -134,31 +169,24 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
-
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
-
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -177,8 +205,6 @@ p {
     align-items: center;
     justify-content: center;
 }
-
-
 .middle-content .boxes .box2 {
     background: gold;
     width: 12.5%;
@@ -273,12 +299,10 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
 footer {
     width: 100%;
     background: black;
 }
-
 footer nav {
     width: 60%;
     display: flex;
@@ -287,7 +311,6 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
-
 footer nav a {
     color: white;
     text-decoration: none;
