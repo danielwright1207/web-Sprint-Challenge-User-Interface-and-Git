@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: 1px solid black;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -28,6 +28,52 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+header {
+    justify-content: space-evenly;
+    justify-content: center;
+    padding: 2%;
+    margin-left: 20vw;
+    margin-right: 21vw;
+
+}
+header  nav {
+    display: flex;
+    align-content: start;
+    justify-content: start;
+    justify-content: space-between;
+}
+header nav a {
+    text-decoration: none;
+    padding: 1%;
+    justify-content: start;
+}
+header nav img {
+    height: auto;
+    width: auto;
+    justify-items: left;
+}
+
+.buildings img {
+    height: 31vh;
+    width: 59vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    padding: 5%;
+}
+
+
+.traffic img {
+    height: 31vh;
+    width: 59vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    padding: 2%;
+}
+
 body {
 	line-height: 1;
 }
@@ -65,10 +111,20 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+.strategy1 {
+    width: 17%;
+}
+.working {
+    width: 17%;
+}
 .container {
     width: 800px;
     margin: 0 auto;
+    
+}
+.about2 {
+    display: flex;
+    flex-wrap: wrap;  
 }
 
 .top-content {
@@ -90,6 +146,7 @@ p {
     border-bottom: 1px dashed black;
 }
 
+
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
@@ -101,17 +158,108 @@ p {
     justify-content: space-evenly;
 }
 
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
-    color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box1 {
+    background: teal;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+
+.middle-content .boxes .box2 {
+    background: gold;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box3 {
+    background:cadetblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box4 {
+    background:coral;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box5 {
+    background:crimson;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box6 {
+    background:forestgreen;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box7 {
+    background:darkorchid;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box8 {
+    background:hotpink;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box9 {
+    background:indigo;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box10 {
+    background:dodgerblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
